@@ -1,0 +1,43 @@
+.contenar{
+  display: flex;
+  margin: 3%;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+}
+.flow{
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow: scroll;
+}
+.flow a{
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.videosize{
+  width: 60vw;
+  height: 75vh;
+  border: 35px solid #424242;
+  margin-left: 1%;
+}
+.button{
+  color:black;
+  font-size: 1.2em;
+  text-decoration: none ! important;
+  border: none;
+}
+@media only screen and (max-width: 640px) {
+  .videosize{
+    width: 100vw;
+    height: 50vh;
+    margin-right: 2%;
+  }
+  .contenar{
+    display: block;
+  }
+} 
